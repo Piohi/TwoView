@@ -12,30 +12,30 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoView" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" id="Fdy-bb-caW">
-                                <rect key="frame" x="13" y="53" width="294" height="231"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" id="uBO-1Z-UVi">
-                                <rect key="frame" x="13" y="300" width="294" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBO-1Z-UVi">
+                                <rect key="frame" x="16" y="295" width="288" height="226"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdy-bb-caW">
+                                <rect key="frame" x="16" y="39" width="288" height="226"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="uBO-1Z-UVi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ITn-cq-eQ3"/>
-                            <constraint firstItem="Fdy-bb-caW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="KE8-mG-CUG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uBO-1Z-UVi" secondAttribute="bottom" constant="16" id="OGT-rP-RQM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBO-1Z-UVi" secondAttribute="trailing" constant="16" id="Qtp-f2-179"/>
-                            <constraint firstItem="Fdy-bb-caW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Uhp-GL-4DZ"/>
-                            <constraint firstItem="uBO-1Z-UVi" firstAttribute="top" secondItem="Fdy-bb-caW" secondAttribute="bottom" constant="16" id="nEr-6B-AzV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fdy-bb-caW" secondAttribute="trailing" constant="16" id="07C-ud-CNm"/>
+                            <constraint firstItem="uBO-1Z-UVi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Udq-DU-e4V"/>
+                            <constraint firstItem="Fdy-bb-caW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Xu6-Mx-fls"/>
+                            <constraint firstItem="uBO-1Z-UVi" firstAttribute="top" secondItem="Fdy-bb-caW" secondAttribute="bottom" constant="30" id="bef-qT-Mep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBO-1Z-UVi" secondAttribute="trailing" constant="16" id="uNd-8L-ShY"/>
+                            <constraint firstItem="Fdy-bb-caW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="v37-83-wx4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uBO-1Z-UVi" secondAttribute="bottom" constant="47" id="x8h-ot-O52"/>
+                            <constraint firstItem="uBO-1Z-UVi" firstAttribute="height" secondItem="Fdy-bb-caW" secondAttribute="height" id="zrz-Li-bWJ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -49,10 +49,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
